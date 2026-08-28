@@ -1,0 +1,52 @@
+06:28:49 UA: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+06:28:49 loaded small.mp4 (0 bytes)
+06:28:49 warm-up done
+06:28:49 trim_copy 60s run1: 0.02s
+06:28:49 trim_copy 60s run2: 0.02s
+06:28:49 trim_copy 60s run3: 0.02s
+06:28:49 loaded medium.mp4 (0 bytes)
+06:28:49 trim_copy 150s run1: 0.04s
+06:28:49 trim_copy 150s run2: 0.04s
+06:28:49 trim_copy 150s run3: 0.03s
+06:28:49 loaded long.mp4 (0 bytes)
+06:28:49 trim_copy 600s run1: 0.07s
+06:28:49 trim_copy 600s run2: 0.07s
+06:28:50 trim_copy 600s run3: 0.07s
+06:28:50 loaded small.mp4 (0 bytes)
+06:28:50 stripmeta_copy 60s run1: 0.03s
+06:28:50 stripmeta_copy 60s run2: 0.03s
+06:28:50 stripmeta_copy 60s run3: 0.03s
+06:28:50 loaded medium.mp4 (0 bytes)
+06:28:50 stripmeta_copy 150s run1: 0.06s
+06:28:50 stripmeta_copy 150s run2: 0.06s
+06:28:50 stripmeta_copy 150s run3: 0.05s
+06:28:50 loaded long.mp4 (0 bytes)
+06:28:50 stripmeta_copy 600s run1: 0.13s
+06:28:50 stripmeta_copy 600s run2: 0.13s
+06:28:50 stripmeta_copy 600s run3: 0.14s
+06:28:50 loaded small.mp4 (0 bytes)
+06:28:51 audio_mp3 60s run1: 0.61s
+06:28:51 audio_mp3 60s run2: 0.56s
+06:29:34 gif_480_15 60s run1: 42.93s
+06:30:13 gif_480_15 60s run2: 38.28s
+06:30:13 webm_vp9 60s run1: CRASH Error: page.evaluate: RuntimeError: memory access out of bounds
+06:30:13 recovering instance after crash…
+06:30:15 loaded small.mp4 (0 bytes)
+06:35:40 compress_crf28 60s run1: 325.35s
+06:41:05 compress_crf28 60s run2: 324.66s
+06:41:05 loaded medium.mp4 (0 bytes)
+06:52:36 compress_crf28 150s run1: 690.74s
+07:04:05 compress_crf28 150s run2: 689.61s
+07:04:06 loaded long.mp4 (0 bytes)
+07:49:14 compress_crf28 600s run1: 2708.74s
+08:34:20 compress_crf28 600s run2: 2706.17s
+08:34:20 loaded small.mp4 (0 bytes)
+08:40:21 rotate90 60s run1: 360.79s
+08:46:21 rotate90 60s run2: 360.04s
+08:46:21 loaded medium.mp4 (0 bytes)
+08:58:58 rotate90 150s run1: 756.23s
+09:11:35 rotate90 150s run2: 757.37s
+09:11:35 loaded long.mp4 (0 bytes)
+10:01:19 rotate90 600s run1: 2983.87s
+10:50:49 rotate90 600s run2: 2969.82s
+10:50:49 ALL DONE
