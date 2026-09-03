@@ -16,7 +16,7 @@ This tool is a reference implementation of the **Web-CLI** architecture, describ
 > Tejaswi Gowda, Arizona State University.
 > arXiv: https://arxiv.org/abs/2608.28950
 
-The paper defines the four properties (fidelity, progressive disclosure, offline-first, zero egress), presents four reference implementations, and argues that for sensitive data, client-side should be the default architecture — because it makes privacy a *verifiable* technical property rather than a policy promise.
+The paper defines the four properties (fidelity, progressive disclosure, offline-first, zero egress), presents four reference implementations, and argues that for sensitive data, client-side should be the default architecture - because it makes privacy a *verifiable* technical property rather than a policy promise.
 
 ---
 
@@ -127,7 +127,7 @@ Mux an `.srt`, `.vtt`, or `.ass` subtitle file into the video. Two methods:
 **Caption font size** (hard-burn only): choose **Small**, **Medium** (default), or **Large**. The size scales with the video resolution so captions stay proportional on any clip.
 
 ### ◉ Auto-Caption (Whisper)
-Generate **automatic captions** from speech using [OpenAI's Whisper](https://openai.com/research/whisper) model via [Transformers.js](https://xenova.github.io/transformers.js/). Transcription runs entirely in your browser—your audio never leaves your device. Model weights are cached locally in IndexedDB after the first download, and the library is cached by the service worker for offline use. Edit the transcript before embedding it as a soft subtitle track or burning it into the frames.
+Generate **automatic captions** from speech using [OpenAI's Whisper](https://openai.com/research/whisper) model via [Transformers.js](https://xenova.github.io/transformers.js/). Transcription runs entirely in your browser. Your audio never leaves your device. Model weights are cached locally in IndexedDB after the first download, and the library is cached by the service worker for offline use. Edit the transcript before embedding it as a soft subtitle track or burning it into the frames.
 
 **Workflow:**
 1. **Extract** : Audio is extracted from the video at 16 kHz mono
@@ -405,11 +405,11 @@ npx serve docs
 
 ## Part of the Web-CLI family
 
-A family of zero-egress browser tools — your data never leaves your device, verifiable in DevTools. All free, open source, and installable as offline PWAs.
+A family of zero-egress browser tools - your data never leaves your device, verifiable in DevTools. All free, open source, and installable as offline PWAs.
 
-- **[whisper-webCLI](https://github.com/tejaswigowda/whisper-webCLI)** — speech-to-text with Whisper (Transformers.js), ~99 languages, on-device. ([live](https://tejaswigowda.com/whisper-webCLI/))
-- **[chat-webCLI](https://github.com/tejaswigowda/chat-webCLI)** — local LLM chat via WebLLM/WebGPU; prompts never leave the device. ([live](https://tejaswigowda.com/chat-webCLI/))
-- **[3mf-webCLI](https://github.com/tejaswigowda/3mf-webCLI)** — GLB → multi-material 3MF for AMS/MMU 3D printing, client-side. ([live](https://tejaswigowda.com/3mf-webCLI/))
+- **[whisper-webCLI](https://github.com/tejaswigowda/whisper-webCLI)** - speech-to-text with Whisper (Transformers.js), ~99 languages, on-device. ([live](https://tejaswigowda.com/whisper-webCLI/))
+- **[chat-webCLI](https://github.com/tejaswigowda/chat-webCLI)** - local LLM chat via WebLLM/WebGPU; prompts never leave the device. ([live](https://tejaswigowda.com/chat-webCLI/))
+- **[3mf-webCLI](https://github.com/tejaswigowda/3mf-webCLI)** - GLB → multi-material 3MF for AMS/MMU 3D printing, client-side. ([live](https://tejaswigowda.com/3mf-webCLI/))
 
 Architecture paper: [arXiv:2608.28950](https://arxiv.org/abs/2608.28950)
 
