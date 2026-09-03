@@ -8,6 +8,18 @@ A browser-based video editor powered by [ffmpeg.wasm](https://github.com/ffmpegw
 
 ---
 
+## Paper
+
+This tool is a reference implementation of the **Web-CLI** architecture, described in:
+
+> **The Web-CLI: Verifiable Privacy for Tools, Models, and Inference Engines in the Browser**
+> Tejaswi Gowda, Arizona State University.
+> arXiv: https://arxiv.org/abs/2608.28950
+
+The paper defines the four properties (fidelity, progressive disclosure, offline-first, zero egress), presents four reference implementations, and argues that for sensitive data, client-side should be the default architecture — because it makes privacy a *verifiable* technical property rather than a policy promise.
+
+---
+
 ## Key Features
 
 <img src='demos/features.png'/>
@@ -388,6 +400,18 @@ Or serve the `docs/` folder with any static server that sets those two headers:
 # Alternative: using npx serve
 npx serve docs
 ```
+
+---
+
+## Part of the Web-CLI family
+
+A family of zero-egress browser tools — your data never leaves your device, verifiable in DevTools. All free, open source, and installable as offline PWAs.
+
+- **[whisper-webCLI](https://github.com/tejaswigowda/whisper-webCLI)** — speech-to-text with Whisper (Transformers.js), ~99 languages, on-device. ([live](https://tejaswigowda.com/whisper-webCLI/))
+- **[chat-webCLI](https://github.com/tejaswigowda/chat-webCLI)** — local LLM chat via WebLLM/WebGPU; prompts never leave the device. ([live](https://tejaswigowda.com/chat-webCLI/))
+- **[3mf-webCLI](https://github.com/tejaswigowda/3mf-webCLI)** — GLB → multi-material 3MF for AMS/MMU 3D printing, client-side. ([live](https://tejaswigowda.com/3mf-webCLI/))
+
+Architecture paper: [arXiv:2608.28950](https://arxiv.org/abs/2608.28950)
 
 ---
 
